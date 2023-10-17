@@ -8,11 +8,11 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      title: "Exlie Rust — Official Website",
+      title: "ImmortalRustRed — Official Website",
       meta: [
         {
           name: "description",
-          content: "Welcome to Exile Rust official website. Get all Exile servers connection information here."
+          content: "Welcome to ImmortalRustRed official website. Get all ImmortalRustRed servers connection information here."
         }
       ],
       link: [
