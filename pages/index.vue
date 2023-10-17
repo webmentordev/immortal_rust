@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full bg-center bg-cover min-h-screen relative flex items-center justify-center" style="background-image: url('/background.jpg');">
+    <section class="w-full bg-center bg-cover min-h-screen relative flex items-center justify-center" style="background-image: url('/background.webp');">
         <div class="absolute top-0 left-0 h-full w-full bg-dark/60 backdrop-blur-sm"></div>
         <div class="relative z-10 px-4">
             <img src="/immortal_logo.png" alt="Immortal RustRed">

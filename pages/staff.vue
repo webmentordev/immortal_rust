@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <div class="bg-black p-6 rounded-lg relative group">
-                        <span class="absolute top-2 rounded-sm font-semibold left-2 p-2 text-sm px-3 bg-rust">Owner</span>
+                        <span class="absolute top-2 rounded-sm font-semibold left-2 p-2 text-sm px-3 bg-rust">Admin</span>
                         <img class="mb-5 rounded-md group-hover:scale-125 transition-all" src="https://avatars.akamai.steamstatic.com/ff6cfb6591a558aaf4afd0da81273f8850b2ab8c_full.jpg">
                         <div class="info">
                             <h2 class="text-center text-xl mb-3">LoBBer</h2>

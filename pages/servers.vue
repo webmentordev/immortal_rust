@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full bg-center bg-cover min-h-screen relative" style="background-image: url('/servers.jpg');">
+    <section class="w-full bg-center bg-cover min-h-screen relative" style="background-image: url('/servers.webp');">
         <div class="absolute top-0 left-0 h-full w-full bg-dark/60 backdrop-blur-sm"></div>
         <div class="relative z-10 max-w-6xl m-auto pt-[140px] px-4">
             <h1 class="text-6xl text-white text-center">Our Servers</h1>
@@ -13,15 +13,12 @@
                 <h3 v-else class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-red-600 h-fit w-fit rounded-full"></span> {{ server.status }}</h3>
                 <img :src="server.details.rust_headerimage" class="rounded-lg" alt="Immortal Rust Header Image">
                 <div class="p-3">
-                    <h2 class="text-white mt-3 text-2xl">{{ server.name }}</h2>
-                    <div class="m-auto 510px:text-start 510px:m-0 w-fit flex 510px:flex-col text-white border-l-main 510px:border-l">
-                        <div class="border-r border-main 510px:border-none flex text-end 510px:text-start flex-col py-2 px-3">
+                    <h2 class="text-white mt-3 text-2xl text-center">{{ server.name }}</h2>
+                    <div class="m-auto 510px:text-start 510px:m-0 w-fit flex 510px:flex-col text-white">
+                        <div class="510px:border-none flex text-center 510px:text-start flex-col py-2 px-3">
                             <h3>Last Wipe</h3>
                             <span>{{ new Date(new Date(server.details.rust_last_wipe).getTime()).toLocaleDateString('en-US') }}</span>
-                        </div>
-                        <div class="py-2 px-3 flex flex-col">
-                            <h3>Next Wipe</h3>
-                            <span>{{ new Date(new Date(server.details.rust_last_wipe).getTime() + 14 * 24 * 60 * 60 * 1000).toLocaleDateString('en-US') }}</span>
+                            (First and 3rd Thursday of the month)
                         </div>
                     </div>
                 </div>
